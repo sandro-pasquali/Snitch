@@ -1,0 +1,17 @@
+{
+    "name": "snitch",
+    "version": "0.1.1",
+    "url": "http://www.unifiedapplications.com/github/Snitch",
+    "description": "Reports questionable login behavior read from ssh logs and others.",
+    "keywords": ["security","ssh"],
+    "author": "Sandro Pasquali <spasquali@gmail.com>",
+    "dependencies": {
+        "nodemailer"    : ">=0.2.4"
+    },
+    "main": "main",
+    "engines": { "node": ">= 0.6.0" },
+    "repository": {
+        "type"  : "git",
+        "url"   : "https://github.com/sandro-pasquali/Snitch"
+    }
+}
